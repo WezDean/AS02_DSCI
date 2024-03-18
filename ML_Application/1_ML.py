@@ -16,7 +16,7 @@ class IntentPredictionModel:
         self.y_train = None
         self.y_test = None
         self.model = None
-
+#test
     def load_data(self):
         self.data = pd.read_csv(self.dataset_path)
 
